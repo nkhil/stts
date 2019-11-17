@@ -1,0 +1,23 @@
+{
+  "name": "stts",
+  "version": "1.0.0",
+  "description": "An npm package to quickly look up status code names",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm t"
+  },
+  "keywords": [
+    "status",
+    "code",
+    "http",
+    "status",
+    "code",
+    "http",
+    "response",
+    "code",
+    "http",
+    "code"
+  ],
+  "author": "Nikhil Vijayan",
+  "license": "MIT"
+}
