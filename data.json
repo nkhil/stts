@@ -1,0 +1,15 @@
+{
+  "200": { "headline": "200 Success", "summary": "The request has succeeded." },
+  "201": {
+    "headline": "200 Success",
+    "summary": "The request has been fulfilled and has resulted in one or more new resources being created."
+  },
+  "400": {
+    "headline": "400 Client Error",
+    "summary": "The server cannot or will not process the request due to something that is perceived to be a client error (e.g., malformed request syntax, invalid request message framing, or deceptive request routing)."
+  },
+  "500": {
+    "headline": "500 Server Error",
+    "summary": "The server encountered an unexpected condition that prevented it from fulfilling the request."
+  }
+}
