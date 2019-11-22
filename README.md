@@ -4,7 +4,9 @@ An npm package to quickly reference status codes and what they mean.
 
 ## Installation
 
-Install `stts` globally.
+[npm link](https://www.npmjs.com/package/stts)
+
+Install `stts` globally to use it in your terminal no matter where you are in your folder structure.
 
 ```
 npm i -g stts
@@ -17,5 +19,8 @@ Simply type in `stts` followed by the status code to get a brief explanation of 
 **Example:**
 
 ```
-stts 201
+stts 200
+
+200 Success
+The request has been fulfilled and has resulted in one or more new resources being created.
 ```
