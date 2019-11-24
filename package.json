@@ -1,6 +1,6 @@
 {
   "name": "stts",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An npm package to quickly look up status code names",
   "main": "index.js",
   "scripts": {
@@ -24,6 +24,6 @@
   "author": "Nikhil Vijayan",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^3.0.0"
+    "chalk": "3.0.0"
   }
 }
