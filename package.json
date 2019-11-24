@@ -6,6 +6,10 @@
   "scripts": {
     "test": "npm t"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkhil/stts.git"
+  },
   "keywords": [
     "status",
     "code",
