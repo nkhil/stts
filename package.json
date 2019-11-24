@@ -18,6 +18,9 @@
     "http",
     "code"
   ],
+  "bin": {
+    "stts": "./cli.js"
+  },
   "author": "Nikhil Vijayan",
   "license": "MIT",
   "dependencies": {
