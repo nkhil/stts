@@ -24,6 +24,8 @@
   "author": "Nikhil Vijayan",
   "license": "MIT",
   "dependencies": {
-    "chalk": "3.0.0"
+    "boxen": "^4.1.0",
+    "chalk": "3.0.0",
+    "word-wrap": "^1.2.3"
   }
 }
