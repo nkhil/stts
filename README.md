@@ -1,5 +1,7 @@
 # STTS
 
+[![stts.png](https://i.postimg.cc/W45zXPVb/stts.png)](https://postimg.cc/QBWjdwVR)
+
 An npm package to quickly reference status codes and what they mean.
 
 ## Installation
