@@ -10,11 +10,9 @@ const [, , ...args] = process.argv;
 const arg = args[0];
 
 if (data[arg]) {
-  // console.log(chalk.hex('#43e86f').inverse(data[arg].headline));
-  // console.log(chalk.hex('#d2f5d0')(data[arg].summary));
   console.log(
     boxen(
-      `${chalk.bgGreen.black.bold(`${data[arg].headline} `)}\n\n${wrap(
+      `-- ${chalk.white.bold(`${data[arg].headline} --`)}\n\n${wrap(
         chalk.white(data[arg].summary),
         { width: 50, indent: `` }
       )}`,
