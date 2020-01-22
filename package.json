@@ -23,7 +23,7 @@
     "code"
   ],
   "bin": {
-    "stts": "./cli.js"
+    "stts": "./src/index.js"
   },
   "author": "Nikhil Vijayan",
   "license": "MIT",
@@ -31,5 +31,9 @@
     "boxen": "^4.1.0",
     "chalk": "3.0.0",
     "word-wrap": "^1.2.3"
+  },
+  "devDependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "node-fetch": "^2.6.0"
   }
 }
