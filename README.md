@@ -19,3 +19,7 @@ npm i -g stts
 [![Screen-Shot-2019-11-24-at-23-05-37.png](https://i.postimg.cc/R0S2QW4y/Screen-Shot-2019-11-24-at-23-05-37.png)](https://postimg.cc/HrNSTsJ9)
 
 Simply type in `stts` followed by the status code to get a brief explanation of what it means.
+
+## I wrote a quick how to about making stts
+
+You can read it here: [https://nikhilvijayan.com/http-status-code-checker](https://nikhilvijayan.com/http-status-code-checker).
