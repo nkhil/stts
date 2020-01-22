@@ -1,6 +1,6 @@
 {
   "name": "stts",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "An npm package to quickly look up status code names",
   "main": "index.js",
   "scripts": {
