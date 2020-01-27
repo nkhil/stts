@@ -20,6 +20,10 @@ npm i -g stts
 
 Simply type in `stts` followed by the status code to get a brief explanation of what it means.
 
+## Data
+
+All the reference text is from (https://httpstatuses.com/)[https://httpstatuses.com/].
+
 ## I wrote a quick how to about making stts
 
 You can read it here: [https://nikhilvijayan.com/http-status-code-checker](https://nikhilvijayan.com/http-status-code-checker).
