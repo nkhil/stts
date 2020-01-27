@@ -22,7 +22,7 @@ Simply type in `stts` followed by the status code to get a brief explanation of 
 
 ## Data
 
-All the reference text is from (https://httpstatuses.com/)[https://httpstatuses.com/].
+All the reference text is from [https://httpstatuses.com/](https://httpstatuses.com/).
 
 ## I wrote a quick how to about making stts
 
