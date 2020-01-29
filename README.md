@@ -1,12 +1,8 @@
 <p align="center">
 
   <img src="https://i.postimg.cc/hGYFxqjL/logo.png" />
-  
-</p>
-<h1 align="center">
-  Gatsby's hello-world starter
-</h1>
 
+</p>
 
 ![Status Code Reference Tool](./featured_image.png)
 
