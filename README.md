@@ -1,4 +1,12 @@
+<p align="center">
+
 ![Status Code Reference Tool](./logo.png)
+
+</p>
+<h1 align="center">
+  Gatsby's hello-world starter
+</h1>
+
 
 ![Status Code Reference Tool](./featured_image.png)
 
