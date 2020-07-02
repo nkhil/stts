@@ -7,28 +7,31 @@ const data = require('./data.json');
 
 const [, , ...args] = process.argv;
 
-const arg = args[0];
+const statusCode = args[0];
+const isPlanTextRequest = args[1] === '-t';
 
-if (data[arg]) {
-  console.log(
-    boxen(
-      `-- ${chalk.white.bold(`${data[arg].headline} --`)}\n\n${wrap(
-        chalk.white(data[arg].summary),
-        { width: 50, indent: `` }
-      )}`,
-      {
-        padding: 1,
-        margin: 1,
-        borderStyle: 'round',
-      }
+switch (true) {
+  case !!data[statusCode] && isPlanTextRequest:
+    console.log(`${data[statusCode].headline}\n${data[statusCode].summary}`);
+    break;
+  case !!data[statusCode]:
+    console.log(
+      boxen(
+        `-- ${chalk.white.bold(`${data[statusCode].headline} --`)}\n\n${wrap(
+          chalk.white(data[statusCode].summary),
+          { width: 50, indent: `` }
+        )}`,
+        {
+          padding: 1,
+          margin: 1,
+          borderStyle: 'round',
+        }
+      )
+    );
+    break;
+  default:
+    console.log(
+      chalk.white(`Sorry, ${statusCode} is not a valid HTTP status code`),
     )
-  );
-} else {
-  console.log(
-    boxen(chalk.green("Sorry, I don't know that one yet"), {
-      padding: 1,
-      margin: 1,
-      borderStyle: 'round',
-    })
-  );
+    break;
 }
