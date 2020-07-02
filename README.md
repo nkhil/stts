@@ -1,4 +1,8 @@
-![Status Code Reference Tool](./logo.png)
+<p align="center">
+
+  <img src="https://i.postimg.cc/hGYFxqjL/logo.png" />
+
+</p>
 
 STTS is a quick, completely offline reference for HTTP status codes.
 
