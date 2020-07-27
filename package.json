@@ -33,9 +33,7 @@
     "word-wrap": "1.2.3"
   },
   "devDependencies": {
-    "cheerio": "1.0.0-rc.3",
     "eslint": "7.3.1",
-    "node-fetch": "2.6.0",
     "eslint-config-airbnb-base": "14.2.0",
     "eslint-config-node": "4.1.0",
     "eslint-config-prettier": "6.11.0",
