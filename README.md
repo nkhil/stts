@@ -21,7 +21,18 @@ stts <statusCode>
 # eg: stts 409
 ```
 
-**Note**: You can also use node's in-built `node --print "http.STATUS_CODES"` to get a quick summary of all status codes in the terminal.
+## List all status codes and summaries 
+
+Use the `-l` or `-list` flag to list all status codes along with a short description. You don't need to use a status code here.
+
+Usage:
+```bash
+stts -l
+
+# `stts -list` will also have the same behaviour
+```
+
+**Note**: This uses ``node --print "http.STATUS_CODES"` behind the scenes.
 
 ## Plan text mode
 
