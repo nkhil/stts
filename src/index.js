@@ -3,14 +3,19 @@
 const chalk = require('chalk');
 const boxen = require('boxen');
 const wrap = require('word-wrap');
+const http = require('http');
 const data = require('./data.json');
 
 const [, , ...args] = process.argv;
 
 const statusCode = args[0];
+const listAllStatusCodes = statusCode === '-l' || statusCode === '-list';
 const isPlanTextRequest = args[1] === '-t';
 
 switch (true) {
+  case listAllStatusCodes:
+    console.log(http.STATUS_CODES);
+    break;
   case !!data[statusCode] && isPlanTextRequest:
     console.log(`${data[statusCode].headline}\n${data[statusCode].summary}`);
     break;
