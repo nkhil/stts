@@ -32,7 +32,7 @@ stts -l
 # `stts -list` will also have the same behaviour
 ```
 
-**Note**: This uses ``node --print "http.STATUS_CODES"` behind the scenes.
+**Note**: This uses `node --print "http.STATUS_CODES"` behind the scenes.
 
 ## Plan text mode
 
